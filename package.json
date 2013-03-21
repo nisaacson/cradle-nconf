@@ -1,6 +1,6 @@
 {
   "name": "cradle-nconf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Setup a basic cradle connection using the global nconf object",
   "main": "index.js",
   "scripts": {
