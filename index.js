@@ -1,5 +1,5 @@
-var cradle = require('cradle')
 var config = require('nconf')
+var cradle = require('cradle')
 var couch = config.get('couch')
 var host = config.get('couch:host')
 var fullHost = couch.protocol + '://' + couch.host
