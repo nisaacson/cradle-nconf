@@ -18,5 +18,5 @@ module.exports = function (config) {
     }
   }
   var c = new(cradle.Connection)(fullHost, port, opts)
-  module.exports = c.database(database)
+  return c.database(database)
 }
